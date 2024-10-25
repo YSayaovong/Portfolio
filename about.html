@@ -1,66 +1,147 @@
-<div class="section-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <!-- Consistent Header -->
-        <div class="section-container-spacer text-center">
-          <h1 class="h2">03 : About Me</h1>
-        </div>
-        <nav class="navbar navbar-default">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-about" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
 
-            <div class="collapse navbar-collapse" id="navbar-collapse-about">
-              <ul class="nav navbar-nav">
-                <li><a href="./index.html" title="">01 : Home</a></li>
-                <li><a href="./works.html" title="">02 : Works</a></li>
-                <li class="active"><a href="./about.html" title="">03 : About Me</a></li>
-                <li><a href="./contact.html" title="">04 : Contact</a></li>
-              </ul>
-            </div> 
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates developed by Orson.io team" name="author">
+
+  <title>About Me</title>  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
+  <link href="assets/favicon.ico" rel="icon">
+  <link href="main.3f6952e4.css" rel="stylesheet">
+
+  <!-- Add custom CSS here -->
+  <style>
+    body {
+      background-color: white; /* Set background color to white */
+      color: black; /* Set text color to black for contrast */
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .navbar-custom {
+      text-align: center;
+      padding: 20px 0;
+      background-color: black; /* Keep navbar background black for contrast */
+    }
+
+    .navbar-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+    }
+
+    .navbar-list li {
+      display: inline;
+      margin: 0 15px;
+      color: white;
+    }
+
+    .navbar-list li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+
+    .navbar-list li:not(:last-child)::after {
+      content: '|';
+      margin-left: 15px;
+      color: white;
+    }
+
+    .navbar-list .active a {
+      font-weight: bold;
+    }
+
+    .section-container {
+      padding: 40px 0;
+    }
+
+    .section-container h1 {
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .section-container h3 {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .section-container p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .img-responsive {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Custom Navbar -->
+  <nav class="navbar-custom">
+    <ul class="navbar-list">
+      <li><a href="./index.html">01 : Home</a></li>
+      <li><a href="./works.html">02 : Works</a></li>
+      <li class="active"><a href="./about.html">03 : About me</a></li>
+      <li><a href="./contact.html">04 : Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Me Section -->
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">03 : About Me</h1>
           </div>
-        </nav>
 
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-              <div class="col-xs-12 col-md-6">
-                <h3>Mechanical Designer to Software Engineer</h3>
-                <p>
-                  I began my professional journey by earning an associate's degree in Mechanical Design Technology from Milwaukee Area Technical College. With four years of experience as a mechanical designer, I am now transitioning into software engineering, bringing my engineering expertise into a new field.
-                </p>
-                <h3>Current Education & Training</h3>
-                <p>
-                  I am currently pursuing a bachelor's degree in IT with a focus on cybersecurity, set to graduate in April 2025. Additionally, I am enrolled in a Software Engineering Bootcamp at Zero To Mastery Academy, sharpening my skills in backend development and preparing for a career shift.
-                </p>
-                <h3>Programming Skills & Tools</h3>
-                <p>
-                  I have advanced proficiency in Python, along with working knowledge in C++, JavaScript, C#, PHP, MySQL, SQL, NoSQL, Bash scripting, and TypeScript. I am continuously expanding my knowledge in cloud technologies, microservices, and containerization.
-                </p>
-                <h3>Mechanical Design Experience</h3>
-                <p>
-                  My mechanical design background includes extensive experience with tools such as SolidWorks, AutoCAD, and CREO 8.0, enabling me to approach software challenges with a unique, analytical perspective.
-                </p>
-                <h3>Looking Forward</h3>
-                <p>
-                  Bilingual in English and Hmong, I bring strong communication skills and a collaborative approach to teams. I am excited to contribute to backend software engineering roles, focusing on impactful projects and innovative solutions.
-                </p>
-              </div>
-              <div class="col-xs-12 col-md-6">
-                <img src="assets/images/profile.png" class="img-responsive" alt="Profile Picture">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Mechanical Designer to Software Engineer</h3>
+                  <p>
+                    I began my professional journey by earning an associate's degree in Mechanical Design Technology from Milwaukee Area Technical College. With four years of experience as a mechanical designer, I am now transitioning into software engineering, bringing my engineering expertise into a new field.
+                  </p>
+                  <h3>Current Education & Training</h3>
+                  <p>
+                    I am currently pursuing a bachelor's degree in IT with a focus on cybersecurity, set to graduate in April 2025. Additionally, I am enrolled in a Software Engineering Bootcamp at Zero To Mastery Academy, honing my skills in backend development.
+                  </p>
+                  <h3>Programming Skills & Tools</h3>
+                  <p>
+                    I have advanced proficiency in Python, along with working knowledge in C++, JavaScript, C#, PHP, MySQL, SQL, NoSQL, Bash scripting, and TypeScript. I am continuously expanding my knowledge in cloud technologies, microservices, and containerization.
+                  </p>
+                  <h3>Mechanical Design Experience</h3>
+                  <p>
+                    My mechanical design background includes extensive experience with tools such as SolidWorks, AutoCAD, and CREO 8.0, enabling me to approach software challenges with a unique, analytical perspective.
+                  </p>
+                  <h3>Looking Forward</h3>
+                  <p>
+                    Bilingual in English and Hmong, I bring strong communication skills and a collaborative mindset to any team. I am excited to contribute to backend software engineering roles, focusing on impactful projects and innovative solutions.
+                  </p>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <img src="assets/images/profile.png" class="img-responsive" alt="Profile Picture">
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+</body>
+</html>
