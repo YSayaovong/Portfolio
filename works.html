@@ -9,7 +9,7 @@
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates developed by Orson.io team" name="author">
 
-  <title>Projects</title>  
+  <title>Works</title>  
 
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
   <link href="assets/favicon.ico" rel="icon">
@@ -43,11 +43,16 @@
       text-decoration: underline;
     }
 
+    .navbar .separator {
+      color: black; /* Set separator color to black */
+      font-size: 20px;
+    }
+
     .section-container {
       padding: 10px 20px; /* Minimal padding to reduce gap */
     }
 
-    .projects-title {
+    .works-title {
       font-size: 28px;
       font-weight: bold;
       margin-bottom: 20px;
@@ -89,14 +94,17 @@
   <!-- Navbar -->
   <div class="navbar">
     <a href="./index.html">01 : Home</a>
-    <a href="./works.html" class="active">02 : Projects</a>
+    <span class="separator">|</span>
+    <a href="./works.html" class="active">02 : Works</a>
+    <span class="separator">|</span>
     <a href="./about.html">03 : About me</a>
+    <span class="separator">|</span>
     <a href="./contact.html">04 : Contact</a>
   </div>
 
-  <!-- Projects Section -->
+  <!-- Works Section -->
   <div class="section-container">
-    <h1 class="projects-title">Projects</h1>
+    <h1 class="works-title">Works</h1>
 
     <div class="project">
       <h3>Password Checker</h3>
