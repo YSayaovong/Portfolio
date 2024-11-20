@@ -7,7 +7,7 @@ Welcome to my portfolio! This space highlights my journey and achievements as I 
 ## 🖥️ **Portfolio Projects**
 
 ### 📊 **Data Analysis Projects**
-#### 1. [Titanic Dataset Analysis](https://github.com/YSayaovong/Refonte-Data-Engineer-Internship/tree/main/Titanic-Dataset-Analysis))
+#### 1. [Titanic Dataset Analysis](https://github.com/YSayaovong/Refonte-Data-Engineer-Internship/tree/main/Titanic-Dataset-Analysis)
 - **Objective**: Conducted an analysis to identify factors influencing passenger survival.
 - **Highlights**:
   - Preprocessed data, addressing missing values and preparing for analysis.
