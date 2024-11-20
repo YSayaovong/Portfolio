@@ -15,7 +15,7 @@ Welcome to my portfolio! This space highlights my journey and achievements as I 
   - Built a predictive Random Forest Classifier model with scikit-learn.
 - **Skills Used**: Python, Pandas, Seaborn, Machine Learning, Data Visualization.
   
-![Titanic Dataset](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/RMS_Titanic_3.jpg/1024px-RMS_Titanic_3.jpg)
+![Titanic Dataset](images/titanic.PNG)
 
 ---
 
