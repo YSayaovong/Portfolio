@@ -1,4 +1,4 @@
-# 🌟 Y. Sayaovong's Data Portfolio
+# 🌟 Yengkong Sayaovong's Data Portfolio
 
 Welcome to my portfolio! This space showcases my journey and achievements as I transition into a career in **Data Analytics**, building on my strong foundation in **Mechanical Design** and growing expertise in **Data Engineering**.
 
