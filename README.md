@@ -27,7 +27,6 @@ Welcome to my portfolio! This space highlights my journey and achievements as I 
 #### 3. Password Checker
 - Built a secure password validation tool in Python.
 
-![Python Projects](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png)
 
 ---
 
@@ -42,7 +41,7 @@ Welcome to my portfolio! This space highlights my journey and achievements as I 
 ## 📫 **Contact**
 - **Portfolio**: [ysayaovong.github.io](https://ysayaovong.github.io/Portfolio/index.html)
 - **GitHub**: [YSayaovong](https://github.com/YSayaovong)
-- **LinkedIn**: *(Add your LinkedIn link)*
+- **LinkedIn**: [YSayaovong](https://linkedin.com/in/YSayaovong)
 - **Email**: YSayaovong@gmail.com
 
 ---
