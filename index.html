@@ -41,6 +41,7 @@
     .hero-full-container {
       background: none; /* Remove any background color to show the body image */
       color: #ffffff; /* Ensure text remains white for visibility */
+      transform: none !important; /* Disable transform to prevent visual artifacts */
     }
     .hero-full-container .text-content h1 {
       color: #ffffff; /* Ensure headings are white */
@@ -53,12 +54,14 @@
       margin-bottom: 25px; /* Add spacing between text lines */
       line-height: 1.5; /* Add ample spacing between lines to avoid overlap */
     }
-    /* Remove extra borders */
-    #site-border-left,
-    #site-border-right,
-    #site-border-top,
-    #site-border-bottom {
-      display: none; /* Hide these elements */
+    /* Remove unwanted lines from pseudo-elements */
+    .container::before,
+    .container::after,
+    .row::before,
+    .row::after {
+      content: none; /* Remove any content from pseudo-elements */
+      border: none;  /* Remove borders if defined */
+      display: none; /* Hide the pseudo-elements */
     }
   </style>
 </head>
