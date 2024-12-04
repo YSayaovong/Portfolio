@@ -1,75 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developed by Orson.io team" name="author">
-
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
-  <link href="./static/assets/favicon.ico" rel="icon">
+ <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
+  <link href="assets/favicon.ico" rel="icon">
 
   <title>Title Page</title>  
 
-  <link href="./static/main.3f6952e4.css" rel="stylesheet">
+  <link href="main.3f6952e4.css" rel="stylesheet">
 
   <style>
     body {
-      background-image: url('./static/assets/images/data_engineer.JPG'); /* Set background image */
-      background-size: cover;
+      background-image: url('assets/images/data_engineer.JPG'); /* Set the background image */
+      background-size: cover; /* Ensure the image covers the whole page */
       background-repeat: no-repeat;
       background-position: center;
-      color: #ffffff; /* White text */
-      margin: 0;
-      font-family: Arial, sans-serif;
+      color: #ffffff; /* White text for contrast */
     }
-
     .navbar-nav li a {
       font-weight: bold;
-      color: #ffffff;
+      color: #ffffff; /* White text for visibility */
     }
     .navbar-nav li a:hover {
-      color: #dddddd;
+      color: #dddddd; /* Slightly different color for hover effect */
     }
     .navbar-inverse {
-      background-color: transparent;
+      background-color: transparent; /* Transparent background for navbar */
       border: none;
     }
-
     .hero-full-container {
-      background: none;
-      color: #ffffff;
-      text-align: center;
-      padding: 100px 20px;
+      background: none; /* Remove any background color to show the body image */
+      color: #ffffff; /* Ensure text remains white for visibility */
     }
-
-    h1 {
-      font-size: 3em;
-      text-transform: uppercase;
-      margin: 0;
-    }
-
-    /* Flashing effect for the words */
-    #typed-strings span, #typed {
-      display: block;
-      font-size: 3.5em;
-      font-weight: bold;
-      animation: flash 1.5s infinite; /* Flash animation */
-      color: #ffffff;
-    }
-
-    @keyframes flash {
-      0%, 100% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0;
-      }
+    .hero-full-container .text-content h1 {
+      color: #ffffff; /* Ensure headings are white */
     }
   </style>
 </head>
@@ -110,13 +70,14 @@
       <div class="col-xs-12">
         <div class="hero-full-wrapper">
           <div class="text-content">
-              <h1>Hello,<br>
-                <span id="typed-strings">
-                  <span>I'm Yengkong Sayaovong</span>
-                  <span>Mechanical Designer</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
+          <b>Hello,</b>
+              <span id="typed-strings">
+                <span>welcome to my portfolio website</b></span>
+                <span>I'm Yengkong Sayaovong</span>
+                <span>I am a Mechanical Designer</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
           </div>
         </div>
       </div>
@@ -127,9 +88,10 @@
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      type();
+     movingBackgroundImage();
   });
 </script>
 
-<script type="text/javascript" src="./static/main.70a66962.js"></script>
+<script type="text/javascript" src="main.70a66962.js"></script>
 </body>
 </html>
