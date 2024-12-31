@@ -84,21 +84,33 @@
     }
 
     .certificate-section ul li {
-      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
     }
 
     .certificate-section ul li strong {
       font-weight: bold;
+      margin-right: 20px;
     }
 
-    .download-link {
-      margin-top: 20px;
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: black;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
+    .image-placeholder {
+      width: 100px;
+      height: 100px;
+      background-color: #ddd;
+      text-align: center;
+      line-height: 100px;
+      color: black;
+      font-size: 12px;
+      margin-right: 20px;
+    }
+
+    .link-placeholder {
+      margin-left: auto;
+      font-size: 14px;
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -109,7 +121,7 @@
     <ul class="navbar-list">
       <li><a href="./index.html">01 : Home</a></li>
       <li><a href="./works.html">02 : Works</a></li>
-      <li><a href="./about.html">03 : About me</a></li>
+      <li><a href="./about.html">03 : About Me</a></li>
       <li><a href="./education.html">04 : Education</a></li>
       <li><a href="./contact.html">05 : Contact</a></li>
     </ul>
@@ -126,23 +138,47 @@
 
           <div class="certificate-section">
             <h3>Degrees</h3>
-            <p>
-              <li><strong>Certificate in GD&T</strong> - MATC</li>
-              <li><strong>Advanced SolidWorks Certificate</strong> - MATC</li>
-              <li><strong>Business Analyst Training</strong> - Zero To Mastery</li>
-            </p>
-            <h3>Certificates</h3>
-            <p>
-              <li><strong>Google IT Automation with Python Professional Certificate</strong> - Coursera</li>
-              <li><strong>Python Bootcamp Certificate</strong> - Zero To Mastery</li>
-              <li><strong>Business Analytics Certificate</strong> - Zero To Mastery</li>
-              <li><strong>Data Analyst in Python Certificate</strong> - DataCamp</li>
-            </p>
-
-
+            <ul>
+              <li>
+                <div class="image-placeholder">Image</div>
+                <strong>Certificate in GD&T</strong> - MATC
+                <a href="#" class="link-placeholder">View Details</a>
+              </li>
+              <li>
+                <div class="image-placeholder">Image</div>
+                <strong>Advanced SolidWorks Certificate</strong> - MATC
+                <a href="#" class="link-placeholder">View Details</a>
+              </li>
+              <li>
+                <div class="image-placeholder">Image</div>
+                <strong>Business Analyst Training</strong> - Zero To Mastery
+                <a href="#" class="link-placeholder">View Details</a>
+              </li>
             </ul>
-          </div>
 
+            <h3>Certificates</h3>
+            <ul>
+              <li>
+                <div class="image-placeholder">Image</div>
+                <strong>Google IT Automation with Python Professional Certificate</strong> - Coursera
+                <a href="#" class="link-placeholder">View Details</a>
+              </li>
+              <li>
+                <div class="image-placeholder">Image</div>
+                <strong>Python Bootcamp Certificate</strong> - Zero To Mastery
+                <a href="#" class="link-placeholder">View Details</a>
+              </li>
+              <li>
+                <div class="image-placeholder">Image</div>
+                <strong>Business Analytics Certificate</strong> - Zero To Mastery
+                <a href="#" class="link-placeholder">View Details</a>
+              </li>
+              <li>
+                <div class="image-placeholder">Image</div>
+                <strong>Data Analyst in Python Certificate</strong> - DataCamp
+                <a href="#" class="link-placeholder">View Details</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
