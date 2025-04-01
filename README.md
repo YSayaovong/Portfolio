@@ -3,6 +3,7 @@
 Welcome to my GitHub! I specialize in building data-driven financial tools and dashboards using Power BI, Excel, SQL, and Python. My projects focus on automation, financial forecasting, and KPI reporting to support business decisions.
 
 🔧 Tools: Power BI, Excel (VBA, Power Query), SQL, Python (Pandas, NumPy, Matplotlib), PostgreSQL
+
 📁 Notable Projects:
 
 Revenue & Expense Dashboard (Power BI + SQL)
