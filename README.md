@@ -1,4 +1,4 @@
-# 💼 Yengkong Sayaovong – Senior Financial Data Analyst Portfolio
+# 💼 Yengkong Sayaovong – Financial Data Analyst Portfolio
 
 Welcome to my curated portfolio showcasing senior-level projects in forecasting, financial modeling, machine learning, and automation. Each project reflects real-world business scenarios, technical depth, and decision-making impact for enterprise teams.
 
