@@ -36,7 +36,15 @@ An Excel-based calculator suite for transformer lead length estimation, cable pa
 - `Calculator_Project.xlsm`
 - `Calculator_Project.xlsx` (macro-free version)
 
+
 ---
 
-## 📁 Folder Structure
+## 👤 Author
+
+**Yengkong Sayaovong**  
+📌 Mechanical Designer | Data Analyst  
+📧 ysayaovong@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/YengkongSayaovong)
+
+---
 
